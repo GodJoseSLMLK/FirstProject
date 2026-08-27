@@ -102,6 +102,111 @@ public class App {
         int edad = sc.nextInt();
         System.out.println("Tu nombre es " + nombre + " y tienes " + edad + " años.");
         sc.close();*/
+
+
+        //dia de la semana
+       /* Scanner sc = new Scanner(System.in);
+        System.out.print("Ingrese un número del 1 al 7 para obtener el nombre del día de la semana: ");
+        int dia = sc.nextInt();
+        String nombreDia;
+        switch (dia) {
+            case 1:
+                nombreDia = "Lunes";
+                break;
+            case 2:
+                nombreDia = "Martes";
+                break;
+            case 3:
+                nombreDia = "Miércoles";
+                break;
+            case 4:
+                nombreDia = "Jueves";
+                break;
+            case 5:
+                nombreDia = "Viernes";
+                break;
+            case 6:
+                nombreDia = "Sábado";
+                break;
+            case 7:
+                nombreDia = "Domingo";
+                break;
+            default:
+                nombreDia = "Día inválido";
+        }
+        System.out.println("El día " + dia + " corresponde a: " + nombreDia); */
+
+
+        //calculadora
+        /*
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Numero 1: ");
+        double a = sc.nextDouble();
+        System.out.print("operacion(+,-,*,/): ");
+        char op = sc.next().charAt(0);
+        System.out.print("Numero 2: ");
+        double b = sc.nextDouble();
+        double resultado;
+        switch (op) {
+            case '+':
+                resultado = a + b;
+                System.out.println("Resultado: " + resultado);
+                break;
+            case '-':
+                resultado = a - b;
+                System.out.println("Resultado: " + resultado);
+                break;
+            case '*':
+                resultado = a * b;
+                System.out.println("Resultado: " + resultado);
+                break;
+            case '/':
+                if (b != 0) {
+                    resultado = a / b;
+                    System.out.println("Resultado: " + resultado);
+                } else {
+                    System.out.println("Error: indeterminada.");
+                }
+                break;
+            default:
+                System.out.println("Operación inválida.");
+        }
+     */
+
+        //bucle for
+        /*
+    for (int i = 1; i <= 5; i++) {
+            System.out.println("Iteración: " + i);
+        }
+        
+
+        for (int i = 0; i <= 10; i += 2) {
+            System.out.println("Iteración: " + i);
+        }
+     */
+
+        //module
+        /*
+    for (int i = 0; i <= 20; i++) {
+            if (i % 2 == 0) {
+                System.out.println("Iteración: " + i);
+            }
+        }
+         */
+
+        //tabla de multiplicar
+        /*
+        Scanner sc = new Scanner(System.in);
+        System.out.print("de que numero quieres la tabla: ");
+        int numero = sc.nextInt();
+        System.out.println("\nTabla de multiplicar del " + numero + ":");
+        for (int i = 1; i <= 10; i++) {
+            int resultado = numero * i;
+            System.out.println(numero + " x " + i + " = " + resultado);
+        }
+            sc.close(); */
+    
+
     }
 }
     
