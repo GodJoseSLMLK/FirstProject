@@ -1,6 +1,23 @@
+
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
+    Punto p1 = new Punto();
+    System.out.println(p1.getX());
+    System.out.println(p1.getY());
+    System.out.println(p1.modulo());
+p1.setX(2);
+p1.setY(3);
+System.out.println(p1.getX());
+System.out.println(p1.getY());
+p1.modulo();
+System.out.println(p1.modulo());
+Punto p2 = new Punto(2,3);
+System.out.println(p2.getX());
+System.out.println(p2.getY());
+System.out.println(p2.modulo());
+
+
 
         //mayor de edad
         /*
@@ -307,10 +324,13 @@ public class App {
         System.out.println("Edad " + (i + 1) + ": " + edades[i]);
    }  */
    
+
+        /*
     Scanner sc = new Scanner(System.in);
     System.out.print("Cuantos estudiantes hay?: ");
     int n = sc.nextInt();
     double[] notas = new double[n];
+    */
     
 
 
