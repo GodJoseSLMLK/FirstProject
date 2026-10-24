@@ -8,4 +8,13 @@ public class PuntoTiempo extends Punto {
         super(x, y);
         this.t = t;
     }
+    public int getT() {
+        return this.t;
+    }
+    public final void setT(int t) {
+        this.t = t;
+    }
+    public double velocidad() {
+        return this.modulo() / this.t;
+    }
 }

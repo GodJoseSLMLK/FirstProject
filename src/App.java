@@ -17,8 +17,19 @@ System.out.println(p2.getX());
 System.out.println(p2.getY());
 System.out.println(p2.modulo());
 
+PuntoTiempo pt1 = new PuntoTiempo();
+System.out.println(pt1.getX());
+System.out.println(pt1.getY());
+System.out.println(pt1.getT());
+System.out.println(pt1.velocidad());
+System.out.println(pt1.modulo());
 
-
+PuntoTiempo pt2 = new PuntoTiempo(1, 2, 3);
+System.out.println(pt2.getX());
+System.out.println(pt2.getY());
+System.out.println(pt2.getT());
+System.out.println(pt2.velocidad());
+System.out.println(pt2.modulo());
         //mayor de edad
         /*
             Scanner sc = new Scanner(System.in);
