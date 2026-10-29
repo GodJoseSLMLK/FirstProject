@@ -30,6 +30,15 @@ System.out.println(pt2.getY());
 System.out.println(pt2.getT());
 System.out.println(pt2.velocidad());
 System.out.println(pt2.modulo());
+ // sobrescritura de metodo
+Punto3D p3d1 = new Punto3D(1, 2, 3, 4);
+System.out.println(p3d1.getX());
+System.out.println(p3d1.getY());
+System.out.println(p3d1.getZ());
+System.out.println(p3d1.getT());
+System.out.println(p3d1.velocidad());
+System.out.println(p3d1.modulo());
+
         //mayor de edad
         /*
             Scanner sc = new Scanner(System.in);
